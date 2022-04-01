@@ -15,7 +15,9 @@ am4core.useTheme(am4themes_animated);
 })
 export class AppComponent   implements OnInit, AfterViewInit   {
 
-    constructor(){}
+    constructor(){
+      console.log('hello world');
+    }
 ngAfterViewInit()
 {
     
